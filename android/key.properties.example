@@ -1,0 +1,6 @@
+# Archivo de configuración de llaves para firmar el APK de producción en Android
+# Coloca este archivo como 'android/key.properties' (NUNCA lo subas a Git)
+storePassword=tu_password_del_keystore
+keyPassword=tu_password_de_la_alias
+keyAlias=upload
+storeFile=../upload-keystore.jks
